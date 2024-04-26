@@ -89,8 +89,76 @@ export default {
                   <v-btn class="btn rounded-pill shadow-none mt-3">Creéer feedback</v-btn>
                 </v-form>
               </v-window-item>
-              <v-window-item value="two"> Two </v-window-item>
-              <v-window-item value="three"> Three </v-window-item>
+              <v-window-item value="two">
+                <h5 class="mt-1 ms-6 text-h5 mb-5">Omar - mbo<br />onderwijsassistent</h5>
+                <v-form ref="form">
+                  <label>Skills van Omar</label>
+                  <div class="mt-2">
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Opbouwende feedback
+                    </label>
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Taalgebruik ondersteunen
+                    </label>
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Taxonomie van Bloem
+                    </label>
+                  </div>
+
+                  <div class="mt-3">
+                    <label>Upload opdracht student (pdf)</label>
+                    <label class="fileUpload">
+                      <input type="file" placeholder="Upload Box" />
+                      Upload box
+                    </label>
+                  </div>
+
+                  <div class="mt-3">
+                    <label>Belangrijkste Leerdoel</label>
+                    <textarea
+                      class="w-100 border"
+                      rows="4"
+                      placeholder="Geef aan wat het belangrijkste leerdoel is dat de student leert uit de opdracht Bijvoorbeeld het vergelijken van Nederlandse taal met Engelsi"
+                    ></textarea>
+                  </div>
+                  <v-btn class="btn rounded-pill shadow-none mt-3">Creéer feedback</v-btn>
+                </v-form>
+              </v-window-item>
+              <v-window-item value="three">
+                <h5 class="mt-1 ms-6 text-h5 mb-5">Omar - mbo<br />onderwijsassistent</h5>
+                <v-form ref="form">
+                  <label>Skills van Omar</label>
+                  <div class="mt-2">
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Opbouwende feedback
+                    </label>
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Taalgebruik ondersteunen
+                    </label>
+                    <label class="radioInput">
+                      <input type="radio" name="radio-group" value="one" /> Taxonomie van Bloem
+                    </label>
+                  </div>
+
+                  <div class="mt-3">
+                    <label>Upload opdracht student (pdf)</label>
+                    <label class="fileUpload">
+                      <input type="file" placeholder="Upload Box" />
+                      Upload box
+                    </label>
+                  </div>
+
+                  <div class="mt-3">
+                    <label>Belangrijkste Leerdoel</label>
+                    <textarea
+                      class="w-100 border"
+                      rows="4"
+                      placeholder="Geef aan wat het belangrijkste leerdoel is dat de student leert uit de opdracht Bijvoorbeeld het vergelijken van Nederlandse taal met Engelsi"
+                    ></textarea>
+                  </div>
+                  <v-btn class="btn rounded-pill shadow-none mt-3">Creéer feedback</v-btn>
+                </v-form>
+              </v-window-item>
             </v-window>
           </v-card>
         </v-col>
@@ -229,8 +297,240 @@ export default {
           </v-container>
         </div>
       </v-window-item>
-      <v-window-item value="Hbo"> Two </v-window-item>
-      <v-window-item value="Wo"> Three </v-window-item>
+      <v-window-item value="Hbo">
+        <v-container>
+          <v-row>
+            <v-col sm="7">
+              <h4 class="text-h4 mb-3">Ontmoet onderwijsassistent Omar</h4>
+              <p class="mb-6" style="line-height: 1">
+                <small class="font-weight-medium text-subtitle-1"
+                  >Hallo, mijn naam is Omar. 1k ben de assistent die je altijd al hebt gewild,<br />
+                  maar nog nooit hebt kunnen hebben tot nu.</small
+                >
+              </p>
+              <v-btn class="btn rounded-0 cShadow">Leer meer over mij!</v-btn>
+            </v-col>
+            <v-col md="5" class="text-end">
+              <img src="../img/Image2.png" alt="image" class="Image2" />
+            </v-col>
+          </v-row>
+          <v-row class="">
+            <v-col sm="4">
+              <div class="cCard">
+                <img src="../img/heart.svg" />
+                <h2>96%</h2>
+                <p>Mbo docenten besparen tijd met een Al assistent</p>
+              </div>
+            </v-col>
+            <v-col md="4">
+              <div class="cCard">
+                <img src="../img/people.svg" />
+                <h2>1.000+</h2>
+                <p>Mbo docenten gebruiken dagelijks een AI assistent</p>
+              </div>
+            </v-col>
+            <v-col md="4">
+              <div class="cCard">
+                <img src="../img/feedback.svg" />
+                <h2>50.000+</h2>
+                <p>Geeft een Eduface assistent feedback per maand</p>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="mt-8">
+            <v-col cols="12" sm="6" class="text-end">
+              <img src="../img/Image3.png" class="Image3" />
+            </v-col>
+            <v-col cols="12" sm="6" class="mt-sm-16 laatMij">
+              <div class="mx-auto" style="max-width: 550px">
+                <h3 class="mt-sm-12 mt-md-14 mt-lg-16 text-h6 mb-6">
+                  Laat mij jou ondersteunen bij jouw onderwijstaken! Dit is wat ik kan:
+                </h3>
+                <p>
+                  <img src="../img/file.svg" class="me-1" /> Ik kan formatieve feedback geven op de
+                  opdrachten van jouw studenten
+                </p>
+                <p>
+                  <img src="../img/box.svg" class="me-1" /> Ik kan onbeperkte veel oefenvragen maken
+                  in jouw eigen digitale leeromgeving.
+                </p>
+                <p>
+                  <img src="../img/people.svg" class="me-1" /> Ik ben helemaal AVG proof gebouwd en
+                  ik sla geen informatie op!
+                </p>
+                <div class="cCard uploadBox">
+                  <div><img src="../img/upload.svg" /></div>
+                  Laat mij feedback geven op het werk <br />van jouw studenten
+                </div>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="">
+            <v-col cols="12" sm="5">
+              <div class="reviewLeft">
+                <v-row>
+                  <v-col class="txt">
+                    Tamara Metz - software development docent
+                    <div class="mt-4 txt">MboRijnIand</div>
+                  </v-col>
+                  <v-col class="text-center">
+                    <img src="../img/Image4.png" />
+                  </v-col>
+                </v-row>
+              </div>
+            </v-col>
+            <v-col cols="12" sm="7" class="reviewRight">
+              <h5 class="text-h5 font-weight-bold">
+                "Omar heeft mij geholpen om meer dan IO uur per week te besparen op het maken van
+                oefenmateriaal en op het nakijken en voorzien van feedback voor mijn studenten'
+              </h5>
+              <div class="starts">
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+              </div>
+            </v-col>
+          </v-row>
+        </v-container>
+        <div class="greenBg">
+          <v-container class="py-8">
+            <v-row>
+              <v-col cols="12" sm="6"><img src="../img/Image5.png" /></v-col>
+              <v-col cols="12" sm="6">
+                <div class="ps-0 ps-sm-4 ps-md-6 ps-lg-8">
+                  <h4 class="text-h4 font-weight-bold mb-4">
+                    Ik kan niet wachten om samen te werken!
+                  </h4>
+                  <p class="mb-6 text-subtitle-1">
+                    Ik heb goed nieuws! 1k sla geen informatie op, want ik benvolledig AVG proof
+                    gebouwd.
+                  </p>
+                  <v-btn class="btn rounded-0">Samenwerken met Omar</v-btn>
+                </div>
+              </v-col>
+            </v-row>
+          </v-container>
+        </div>
+      </v-window-item>
+      <v-window-item value="Wo">
+        <v-container>
+          <v-row>
+            <v-col sm="7">
+              <h4 class="text-h4 mb-3">Ontmoet onderwijsassistent Omar</h4>
+              <p class="mb-6" style="line-height: 1">
+                <small class="font-weight-medium text-subtitle-1"
+                  >Hallo, mijn naam is Omar. 1k ben de assistent die je altijd al hebt gewild,<br />
+                  maar nog nooit hebt kunnen hebben tot nu.</small
+                >
+              </p>
+              <v-btn class="btn rounded-0 cShadow">Leer meer over mij!</v-btn>
+            </v-col>
+            <v-col md="5" class="text-end">
+              <img src="../img/Image2.png" alt="image" class="Image2" />
+            </v-col>
+          </v-row>
+          <v-row class="">
+            <v-col sm="4">
+              <div class="cCard">
+                <img src="../img/heart.svg" />
+                <h2>96%</h2>
+                <p>Mbo docenten besparen tijd met een Al assistent</p>
+              </div>
+            </v-col>
+            <v-col md="4">
+              <div class="cCard">
+                <img src="../img/people.svg" />
+                <h2>1.000+</h2>
+                <p>Mbo docenten gebruiken dagelijks een AI assistent</p>
+              </div>
+            </v-col>
+            <v-col md="4">
+              <div class="cCard">
+                <img src="../img/feedback.svg" />
+                <h2>50.000+</h2>
+                <p>Geeft een Eduface assistent feedback per maand</p>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="mt-8">
+            <v-col cols="12" sm="6" class="text-end">
+              <img src="../img/Image3.png" class="Image3" />
+            </v-col>
+            <v-col cols="12" sm="6" class="mt-sm-16 laatMij">
+              <div class="mx-auto" style="max-width: 550px">
+                <h3 class="mt-sm-12 mt-md-14 mt-lg-16 text-h6 mb-6">
+                  Laat mij jou ondersteunen bij jouw onderwijstaken! Dit is wat ik kan:
+                </h3>
+                <p>
+                  <img src="../img/file.svg" class="me-1" /> Ik kan formatieve feedback geven op de
+                  opdrachten van jouw studenten
+                </p>
+                <p>
+                  <img src="../img/box.svg" class="me-1" /> Ik kan onbeperkte veel oefenvragen maken
+                  in jouw eigen digitale leeromgeving.
+                </p>
+                <p>
+                  <img src="../img/people.svg" class="me-1" /> Ik ben helemaal AVG proof gebouwd en
+                  ik sla geen informatie op!
+                </p>
+                <div class="cCard uploadBox">
+                  <div><img src="../img/upload.svg" /></div>
+                  Laat mij feedback geven op het werk <br />van jouw studenten
+                </div>
+              </div>
+            </v-col>
+          </v-row>
+          <v-row class="">
+            <v-col cols="12" sm="5">
+              <div class="reviewLeft">
+                <v-row>
+                  <v-col class="txt">
+                    Tamara Metz - software development docent
+                    <div class="mt-4 txt">MboRijnIand</div>
+                  </v-col>
+                  <v-col class="text-center">
+                    <img src="../img/Image4.png" />
+                  </v-col>
+                </v-row>
+              </div>
+            </v-col>
+            <v-col cols="12" sm="7" class="reviewRight">
+              <h5 class="text-h5 font-weight-bold">
+                "Omar heeft mij geholpen om meer dan IO uur per week te besparen op het maken van
+                oefenmateriaal en op het nakijken en voorzien van feedback voor mijn studenten'
+              </h5>
+              <div class="starts">
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+                <img src="../img/star.svg" />
+              </div>
+            </v-col>
+          </v-row>
+        </v-container>
+        <div class="greenBg">
+          <v-container class="py-8">
+            <v-row>
+              <v-col cols="12" sm="6"><img src="../img/Image5.png" /></v-col>
+              <v-col cols="12" sm="6">
+                <div class="ps-0 ps-sm-4 ps-md-6 ps-lg-8">
+                  <h4 class="text-h4 font-weight-bold mb-4">
+                    Ik kan niet wachten om samen te werken!
+                  </h4>
+                  <p class="mb-6 text-subtitle-1">
+                    Ik heb goed nieuws! 1k sla geen informatie op, want ik benvolledig AVG proof
+                    gebouwd.
+                  </p>
+                  <v-btn class="btn rounded-0">Samenwerken met Omar</v-btn>
+                </div>
+              </v-col>
+            </v-row>
+          </v-container>
+        </div>
+      </v-window-item>
     </v-window>
   </div>
 </template>
