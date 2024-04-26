@@ -30,16 +30,16 @@ export default {
     <v-container>
       <v-row>
         <v-col md="6">
-          <p class="text-subtitle-1 mb-2">De digitale onderwijsassistent</p>
-          <h1 class="mb-4 mainHeading">Bespaar tijd met jouw onderwijsassistent</h1>
-          <p class="mb-3">
+          <p class="text-h6 mb-4">De digitale onderwijsassistent</p>
+          <h1 class="mb-8 text-h3 mainHeading">Bespaar tijd met jouw onderwijsassistent</h1>
+          <p class="mb-3 text-subtitle-1">
             Docenten van alle onderwijsniveaus gebruiken online assistenten om sneller te kunnen
             werken
           </p>
           <v-row>
             <v-col>
-              <v-btn class="mb-1 btn rounded-pill">Gebruik Gratis!</v-btn>
-              <div><small class="semibold textGray">Geen credit card nodig.</small></div>
+              <v-btn class="mb-1 btn rounded-pill text-h6">Gebruik Gratis!</v-btn>
+              <div class="semibold textGray">Geen credit card nodig.</div>
             </v-col>
             <v-col class="text-end">
               <img src="../img/Image1.png" alt="image" class="Image1" />
@@ -86,7 +86,7 @@ export default {
                       placeholder="Geef aan wat het belangrijkste leerdoel is dat de student leert uit de opdracht Bijvoorbeeld het vergelijken van Nederlandse taal met Engelsi"
                     ></textarea>
                   </div>
-                  <v-btn class="btn rounded-pill shadow-none">Creéer feedback</v-btn>
+                  <v-btn class="btn rounded-pill shadow-none mt-3">Creéer feedback</v-btn>
                 </v-form>
               </v-window-item>
               <v-window-item value="two"> Two </v-window-item>
@@ -100,7 +100,7 @@ export default {
     <v-container>
       <v-row>
         <v-col md="6" class="text-end">
-          <h3 class="text-h5 mt-2">Ik ben docent op het..</h3>
+          <h3 class="text-h4 mt-2">Ik ben docent op het..</h3>
         </v-col>
         <v-col md="6">
           <v-tabs v-model="tab2" align-tabs="center" class="d-inline-block m-auto">
@@ -116,9 +116,9 @@ export default {
         <v-container>
           <v-row>
             <v-col sm="7">
-              <h5 class="text-h5 mb-3">Ontmoet onderwijsassistent Omar</h5>
+              <h4 class="text-h4 mb-3">Ontmoet onderwijsassistent Omar</h4>
               <p class="mb-6" style="line-height: 1">
-                <small class="font-weight-medium"
+                <small class="font-weight-medium text-subtitle-1"
                   >Hallo, mijn naam is Omar. 1k ben de assistent die je altijd al hebt gewild,<br />
                   maar nog nooit hebt kunnen hebben tot nu.</small
                 >
@@ -157,24 +157,26 @@ export default {
               <img src="../img/Image3.png" class="Image3" />
             </v-col>
             <v-col cols="12" sm="6" class="mt-sm-16 laatMij">
-              <h3 class="mt-sm-12 mt-md-14 mt-lg-16 text-h6 mb-6">
-                Laat mij jou ondersteunen bij jouw onderwijstaken! Dit is wat ik kan:
-              </h3>
-              <p>
-                <img src="../img/file.svg" class="me-1" /> Ik kan formatieve feedback geven op de
-                opdrachten van jouw studenten
-              </p>
-              <p>
-                <img src="../img/box.svg" class="me-1" /> Ik kan onbeperkte veel oefenvragen maken
-                in jouw eigen digitale leeromgeving.
-              </p>
-              <p>
-                <img src="../img/people.svg" class="me-1" /> Ik ben helemaal AVG proof gebouwd en ik
-                sla geen informatie op!
-              </p>
-              <div class="cCard uploadBox">
-                <div><img src="../img/upload.svg" /></div>
-                Laat mij feedback geven op het werk <br />van jouw studenten
+              <div class="mx-auto" style="max-width: 550px">
+                <h3 class="mt-sm-12 mt-md-14 mt-lg-16 text-h6 mb-6">
+                  Laat mij jou ondersteunen bij jouw onderwijstaken! Dit is wat ik kan:
+                </h3>
+                <p>
+                  <img src="../img/file.svg" class="me-1" /> Ik kan formatieve feedback geven op de
+                  opdrachten van jouw studenten
+                </p>
+                <p>
+                  <img src="../img/box.svg" class="me-1" /> Ik kan onbeperkte veel oefenvragen maken
+                  in jouw eigen digitale leeromgeving.
+                </p>
+                <p>
+                  <img src="../img/people.svg" class="me-1" /> Ik ben helemaal AVG proof gebouwd en
+                  ik sla geen informatie op!
+                </p>
+                <div class="cCard uploadBox">
+                  <div><img src="../img/upload.svg" /></div>
+                  Laat mij feedback geven op het werk <br />van jouw studenten
+                </div>
               </div>
             </v-col>
           </v-row>
@@ -193,10 +195,10 @@ export default {
               </div>
             </v-col>
             <v-col cols="12" sm="7" class="reviewRight">
-              <h3>
+              <h5 class="text-h5 font-weight-bold">
                 "Omar heeft mij geholpen om meer dan IO uur per week te besparen op het maken van
                 oefenmateriaal en op het nakijken en voorzien van feedback voor mijn studenten'
-              </h3>
+              </h5>
               <div class="starts">
                 <img src="../img/star.svg" />
                 <img src="../img/star.svg" />
@@ -208,13 +210,15 @@ export default {
           </v-row>
         </v-container>
         <div class="greenBg">
-          <v-container>
+          <v-container class="py-8">
             <v-row>
               <v-col cols="12" sm="6"><img src="../img/Image5.png" /></v-col>
               <v-col cols="12" sm="6">
                 <div class="ps-0 ps-sm-4 ps-md-6 ps-lg-8">
-                  <h2>Ik kan niet wachten om samen te werken!</h2>
-                  <p>
+                  <h4 class="text-h4 font-weight-bold mb-4">
+                    Ik kan niet wachten om samen te werken!
+                  </h4>
+                  <p class="mb-6 text-subtitle-1">
                     Ik heb goed nieuws! 1k sla geen informatie op, want ik benvolledig AVG proof
                     gebouwd.
                   </p>
@@ -246,7 +250,6 @@ export default {
   }
 }
 .mainHeading {
-  font-size: 38px;
   letter-spacing: 2px;
 }
 .btn {
@@ -254,6 +257,12 @@ export default {
   box-shadow: none;
   font-weight: 600;
   text-transform: capitalize;
+  font-size: 16px;
+  padding: 15px 25px;
+  height: auto !important;
+}
+.btn:hover {
+  box-shadow: none;
 }
 .semibold {
   font-weight: 600;
@@ -336,12 +345,11 @@ textarea::placeholder {
 }
 .laatMij p {
   font-weight: 600;
-  font-size: 14px;
-  line-height: 1;
+  line-height: 1.5;
   margin-bottom: 10px;
 }
 .laatMij img {
-  vertical-align: bottom;
+  vertical-align: middle;
 }
 .uploadBox {
   margin-top: 15px;
@@ -359,6 +367,7 @@ textarea::placeholder {
 }
 .reviewLeft .txt {
   font-weight: 700;
+  font-size: 20px;
 }
 .reviewLeft img {
   width: 100%;
@@ -373,7 +382,7 @@ textarea::placeholder {
   border-bottom: 5px solid #000;
 }
 .starts img {
-  width: 40px;
+  width: 50px;
 }
 
 .greenBg {
@@ -382,7 +391,7 @@ textarea::placeholder {
 }
 .greenBg img {
   max-width: 100%;
-  width: 400px;
+  width: 500px;
 }
 .greenBg h2 {
   margin-top: 50px;
