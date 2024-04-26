@@ -1,0 +1,22 @@
+.v-slide-group__container {
+  display: block !important;
+  width: 100%;
+  text-align: center;
+}
+.v-slide-group__content {
+  display: inline-block !important;
+  margin: auto !important;
+  background-color: #f2f2f2;
+  border-radius: 45px;
+  padding: 5px;
+}
+.v-slide-group__content button {
+  border-radius: 45px !important;
+  height: 38px !important;
+}
+.v-tab__slider {
+  display: none;
+}
+.v-slide-group-item--active {
+  background-color: #fff !important;
+}
