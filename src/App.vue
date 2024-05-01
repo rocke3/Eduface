@@ -1,10 +1,11 @@
 <script setup lang="ts">
 import Home from './views/Home-view.vue'
+import Assisent from './views/Assisent.vue'
 </script>
 
 <template>
   <main>
-    <Home />
+    <Assisent />
   </main>
 </template>
 
